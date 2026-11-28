@@ -9,6 +9,12 @@ ImWeb uses [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PATCH`
 ## [Unreleased]
 
 ### Added
+- **A visit counter.** imweb.image-ine.org now counts page opens with
+  GoatCounter, hosted by Tom Demeyer on the same server
+  (stats.imweb.image-ine.org). It keeps only the number of opens per day and
+  the site people came from: no cookies, no addresses, nothing about any one
+  person. It doesn't count on localhost, so development and the preview build
+  stay out of the numbers.
 - **ImWeb Remote: Tilt.** The phone or iPad's motion sensors are now three
   controllers. In ImWeb, right-click a control → **Tilt X** (toward / away from
   you), **Tilt Y** (left / right) or **Compass** (turning on the spot); on the
